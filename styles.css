@@ -8,6 +8,7 @@ body, h1, h2, h3, p {
 }
 
 nav {
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
