@@ -51,7 +51,7 @@ section > h2 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 32px;
 }
 
@@ -100,14 +100,30 @@ section > h2 {
 .project-information {
   padding: 12px 24px;
   min-height: 100px;
+  display: grid;
+  gap: 0.5em 1em;
+  align-content: start;
 }
 
 .project-information > h3 {
-  margin-bottom: 0.5em;
   font-weight: 600;
+  grid-column: 1 / 2;
 }
 
 .project-information > p {
   color: #555555;
   font-size: 0.9em;
+  margin-bottom: 0.5em;
+  grid-column: 1 / 3;
+}
+
+.project-links {
+  grid-column: 2 / 3;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.project-links a img {
+  height: 1.5em;
 }
