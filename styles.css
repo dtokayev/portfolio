@@ -75,7 +75,8 @@ section > h2 {
 }
 
 .card:nth-child(1) .project-screenshot {
-  background-color: #4ba2d2;
+  background: center url("./img/screenshot-portfolio.png");
+  background-size: cover;
 }
 
 .card:nth-child(2) .project-screenshot {
