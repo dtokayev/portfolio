@@ -25,3 +25,7 @@ a {
   color: white;
   font-weight: bold;
 }
+
+.card {
+  border: 1px solid black;
+}
