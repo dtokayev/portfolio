@@ -41,6 +41,10 @@ section {
   margin: 0 auto;
 }
 
+section {
+  padding: 0 12px;
+}
+
 section > h2 {
   margin-bottom: 1em;
 }
