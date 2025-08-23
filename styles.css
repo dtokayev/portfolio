@@ -43,7 +43,7 @@ section {
 }
 
 section {
-  padding: 0 12px;
+  padding: 12px;
 }
 
 section > h2 {
@@ -127,4 +127,28 @@ section > h2 {
 
 .project-links a img {
   height: 1.5em;
+}
+
+footer {
+  padding: 12px;
+}
+
+footer > h2 {
+  margin-bottom: 12px;
+}
+
+.email-address {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 18px;
+}
+
+.contact-icons a img {
+  height: 36px;
 }
