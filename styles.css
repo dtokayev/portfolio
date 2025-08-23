@@ -131,6 +131,8 @@ section > h2 {
 
 footer {
   padding: 12px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 footer > h2 {
