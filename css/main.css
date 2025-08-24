@@ -43,7 +43,7 @@ header {
   display: block;
   position: fixed;
   left: 0%;
-  top: 72px;
+  top: 3em;
   width: 100%;
   padding: 2em 0; }
   .active ul {
