@@ -46,4 +46,29 @@ header {
   width: 30px;
   margin-top: 2em; }
 
+section {
+  padding: 4em 2em;
+  text-align: center; }
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #c1121f;
+  letter-spacing: 0.1em;
+  font-size: 0.85em; }
+
+.featured-title {
+  color: #780000;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: -0.4em;
+  display: block; }
+
+.featured-desc {
+  color: #3c3c3c;
+  font-size: 0.85em;
+  font-weight: 500;
+  margin-bottom: 3em;
+  line-height: 1.6em; }
+
 /*# sourceMappingURL=main.css.map */
