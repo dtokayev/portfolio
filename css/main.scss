@@ -46,6 +46,19 @@ header {
   }
 }
 
-.social-header {
+.social-header, .hero-design {
   display: none;
+}
+
+.hero {
+  background: #c1121f;
+  color: #fdf0d5;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
 }
