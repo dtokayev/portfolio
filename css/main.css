@@ -91,4 +91,8 @@ section {
   .skills-container ul li .featured-desc {
     margin-bottom: 2em; }
 
+.portfolio-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em; }
+
 /*# sourceMappingURL=main.css.map */
