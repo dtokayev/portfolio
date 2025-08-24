@@ -17,3 +17,31 @@ a {
 img {
   width: 100%;
 }
+
+.nav-container {
+  background: #780000;
+
+  a {
+    color: #fdf0d5;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+
+  .logo {
+    color: #fdf0d5;
+    font-weight: bold;
+  }
+
+  ul {
+    display: flex;
+
+    a {
+      display: block;
+      padding: 0 1em;
+    }
+  }
+}
