@@ -128,3 +128,45 @@ section {
   border-radius: 1em;
   margin-bottom: 2em;
 }
+
+footer {
+  background: #003049;
+  text-align: center;
+  padding: 4em 2em;
+  color: white;
+
+  h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 3em;
+  }
+
+  img {
+    height: 24px;
+  }
+
+  .email-address {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 3em;
+
+    img {
+      width: auto;
+    }
+  }
+
+  .social-footer {
+    display: flex;
+    justify-content: center;
+    
+    a {
+      display: block;
+      padding: 0 1em;
+    }
+  }
+
+  svg {
+    height: 48px;
+  }
+}
