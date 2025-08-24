@@ -37,10 +37,12 @@ header {
 
 .hero {
   background: #c1121f;
-  color: #fdf0d5;
+  color: white;
   display: grid;
   text-align: center;
   padding: 4em; }
+  .hero p {
+    color: #fdf0d5; }
 
 .scroll {
   width: 30px;
@@ -145,5 +147,55 @@ footer {
 
   .portfolio-container img {
     margin-left: 2em; } }
+@media only screen and (min-width: 1100px) {
+  .hero {
+    height: 90vh; }
+
+  .nav-container {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset; }
+    .nav-container header {
+      background: #780000; }
+
+  header {
+    padding: 2em 2em 2em 4em; }
+
+  .social-header {
+    padding: 2em 4em 2em 0; }
+
+  section {
+    padding: 4em; }
+
+  .social-header {
+    display: block; }
+    .social-header ul {
+      display: flex;
+      justify-content: space-between;
+      width: 5em;
+      float: right; }
+      .social-header ul img {
+        width: 20px; }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0; }
+    .hero .content {
+      background: #c1121f;
+      padding: 6em 8em 6em 4em;
+      text-align: left; }
+      .hero .content h1 {
+        font-size: 3em;
+        line-height: 1.2em; }
+
+  .meet {
+    margin: unset; }
+
+  .hero-design {
+    display: unset;
+    margin-left: -50%;
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
