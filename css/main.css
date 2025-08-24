@@ -225,5 +225,13 @@ footer {
 
   .hero .content {
     padding: 9em 20em 6em 20em; } }
+.circle {
+  animation: circleAnimation 1s infinite alternate-reverse; }
+
+@keyframes circleAnimation {
+  from {
+    transform: none; }
+  to {
+    transform: translateY(60px); } }
 
 /*# sourceMappingURL=main.css.map */
