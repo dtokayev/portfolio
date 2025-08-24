@@ -22,15 +22,35 @@ img {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 2em; }
+  align-items: center;
+  padding: 1em 2em; }
   header .logo {
     color: #fdf0d5;
     font-weight: bold; }
+  header img {
+    width: 40px;
+    cursor: pointer; }
   header ul {
     display: flex; }
     header ul a {
       display: block;
       padding: 0 1em; }
+  header nav {
+    display: none; }
+
+.active {
+  background: #780000;
+  display: block;
+  position: fixed;
+  left: 0%;
+  top: 72px;
+  width: 100%;
+  padding: 2em 0; }
+  .active ul {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    text-align: center; }
 
 .social-header, .hero-design {
   display: none; }
@@ -124,6 +144,19 @@ footer {
   footer svg {
     height: 48px; }
 
+@media only screen and (min-width: 500px) {
+  header {
+    padding: 2em; }
+    header img {
+      display: none; }
+    header nav {
+      display: block;
+      background: unset !important;
+      position: static !important;
+      width: auto !important;
+      padding: 0 !important; }
+      header nav ul {
+        flex-direction: row !important; } }
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left; }
