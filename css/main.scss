@@ -91,3 +91,36 @@ section {
   margin-bottom: 3em;
   line-height: 1.6em;
 }
+
+.skills {
+  background: #669bbc;
+}
+
+.skills-container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+
+  .icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+
+    &.one, &.two {
+      img {
+        height: 50px;
+      }
+    }
+  }
+
+  .skill-title {
+    font-weight: bold;
+  }
+  
+  .featured-desc {
+    margin-bottom: 2em;
+  }
+}
+

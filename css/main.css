@@ -71,4 +71,24 @@ section {
   margin-bottom: 3em;
   line-height: 1.6em; }
 
+.skills {
+  background: #669bbc; }
+
+.skills-container ul li {
+  background: white;
+  padding: 2em;
+  border-radius: 1em;
+  margin-bottom: 1em; }
+  .skills-container ul li .icon-container {
+    height: 100px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto; }
+    .skills-container ul li .icon-container.one img, .skills-container ul li .icon-container.two img {
+      height: 50px; }
+  .skills-container ul li .skill-title {
+    font-weight: bold; }
+  .skills-container ul li .featured-desc {
+    margin-bottom: 2em; }
+
 /*# sourceMappingURL=main.css.map */
