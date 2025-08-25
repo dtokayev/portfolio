@@ -53,9 +53,11 @@ header {
   animation: expand 0.5s ease-in-out; }
   .active ul {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     flex-direction: column;
-    text-align: center; }
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em; }
 
 @keyframes expand {
   0% {
@@ -154,7 +156,7 @@ footer {
   footer svg {
     height: 48px; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   header {
     padding: 2em; }
     header img {
@@ -166,7 +168,9 @@ footer {
       width: auto !important;
       padding: 0 !important; }
       header nav ul {
-        flex-direction: row !important; } }
+        flex-direction: row !important;
+        gap: 1em;
+        padding: 0 !important; } }
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left; }

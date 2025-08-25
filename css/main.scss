@@ -74,9 +74,11 @@ header {
 
   ul {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     flex-direction: column;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
   }
 }
 
@@ -219,7 +221,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   header {
     padding: 2em;
 
@@ -236,6 +238,8 @@ footer {
 
       ul {
         flex-direction: row !important;
+        gap: 1em;
+        padding: 0 !important;
       }
     }
   }
