@@ -20,6 +20,8 @@ img {
 
 .nav-container {
   background: #780000;
+  position: relative;
+  animation: 1s expandHero 1;
 
   a {
     color: #ddd7ca;
@@ -31,6 +33,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1em 2em;
+  transition: all 1s ease;
 
   .logo {
     color: #fdf0d5;
@@ -67,7 +70,7 @@ header {
   display: block;
   position: absolute;
   left: 0%;
-  top: 3em;
+  top: 4em;
   width: 100%;
   padding: 2em 0;
   animation: expand 0.5s ease-in-out;
@@ -102,6 +105,9 @@ header {
   display: grid;
   text-align: center;
   padding: 4em;
+  position: relative;
+  z-index: -1;
+  animation: 1s expandHero 1;
 
   p {
     color: #fdf0d5;
@@ -297,6 +303,7 @@ footer {
 
   .social-header {
     padding: 2em 4em 2em 0;
+    transition: all 1s;
   }
 
   section {
@@ -424,5 +431,15 @@ footer {
 @media(prefers-reduced-motion) {
   .hidden {
     transition: none;
+  }
+}
+
+@keyframes expandHero {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0;
   }
 }
