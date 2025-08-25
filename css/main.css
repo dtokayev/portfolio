@@ -196,7 +196,7 @@ footer {
     margin-left: 2em; } }
 @media only screen and (min-width: 1100px) {
   .hero {
-    height: 80vh; }
+    height: 95vh; }
 
   .nav-container {
     display: grid;
@@ -232,7 +232,8 @@ footer {
     .hero .content {
       background: #c1121f;
       padding: 6em 8em 6em 4em;
-      text-align: left; }
+      text-align: left;
+      transition: all 1s; }
       .hero .content h1 {
         font-size: 3em;
         line-height: 1.2em; }
@@ -280,5 +281,22 @@ footer {
     transform: none; }
   to {
     transform: translateY(60px); } }
+.hidden {
+  opacity: 0;
+  transition: all 1s; }
+
+.left-anim {
+  transform: translateX(-100%); }
+
+.right-anim {
+  transform: translateX(100%); }
+
+.show {
+  opacity: 1;
+  transform: translateX(0); }
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none; } }
 
 /*# sourceMappingURL=main.css.map */
