@@ -17,7 +17,7 @@ img {
 .nav-container {
   background: #780000; }
   .nav-container a {
-    color: #fdf0d5; }
+    color: #ddd7ca; }
 
 header {
   display: flex;
@@ -35,6 +35,10 @@ header {
     header ul a {
       display: block;
       padding: 0 1em; }
+    header ul a:hover {
+      text-decoration: underline 2px;
+      text-underline-offset: 8px;
+      color: #fdf0d5; }
   header nav {
     display: none; }
 

@@ -22,7 +22,7 @@ img {
   background: #780000;
 
   a {
-    color: #fdf0d5;
+    color: #ddd7ca;
   }
 }
 
@@ -48,6 +48,12 @@ header {
     a {
       display: block;
       padding: 0 1em;
+    }
+
+    a:hover {
+      text-decoration: underline 2px;
+      text-underline-offset: 8px;
+      color: #fdf0d5;
     }
   }
 
