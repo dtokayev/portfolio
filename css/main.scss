@@ -70,12 +70,23 @@ header {
   top: 3em;
   width: 100%;
   padding: 2em 0;
+  animation: expand 0.5s ease-in-out;
 
   ul {
     display: flex;
     gap: 1em;
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@keyframes expand {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
   }
 }
 
